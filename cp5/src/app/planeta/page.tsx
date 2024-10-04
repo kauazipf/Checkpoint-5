@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Venus() {
     return (
-        <div className="container mx-auto p-8 flex flex-col items-center justify-center max-h-screen gap-24">
+        <div className="container mx-auto p-8 flex flex-col items-center justify-center max-h-screen gap-24 m-12">
             <h1 className="text-4xl font-bold mb-4 text-center">Teoria do Nascimento de Venus</h1>
 
             <Image src={"/images/venus.png"} alt='Venus' width={330} height={330}></Image>
